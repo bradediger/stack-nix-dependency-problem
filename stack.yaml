@@ -1,0 +1,21 @@
+resolver: lts-7.13
+extra-deps:
+  - digestive-functors-0.8.1.1
+  - digestive-functors-blaze-0.6.1.0
+  - digestive-functors-snap-0.7.0.0
+  - esqueleto-2.4.3
+  - haxl-0.4.0.2
+  - heist-1.0.0.0
+  - intern-0.9.1.4
+  - map-syntax-0.2.0.1
+  - persistent-2.2.4.1
+  - persistent-postgresql-2.2.2
+  - persistent-template-2.1.8.1
+  - snap-1.0.0.0
+  - snap-blaze-0.2.1.4
+  - snaplet-fay-0.3.3.13
+  - snap-loader-static-1.0.0.0
+  - snap-web-routes-0.5.1.0
+nix:
+  enable: true
+  shell-file: shell.nix

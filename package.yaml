@@ -1,0 +1,106 @@
+name: problem
+version: '0.1.0.0'
+author: Brad Ediger
+maintainer: brad.ediger@madriska.com
+license: AllRightsReserved
+extra-libraries: xlsxwriter
+dependencies:
+- aeson
+- async
+- base16-bytestring
+- base >=4.8 && <5
+- base64-bytestring
+- bifunctors
+- bindings-DSL
+- blaze-html
+- byteable
+- bytestring
+- bzlib-conduit
+- case-insensitive
+- cereal
+- cereal-text >=0.1.0.1
+- checkers
+- clay
+- conduit
+- conduit-extra
+- constraints
+- containers
+- crypto-api
+- cryptocipher
+- cryptohash-cryptoapi
+- data-default
+- data-ordlist
+- deepseq
+- digestive-functors
+- digestive-functors-blaze
+- digestive-functors-snap
+- directory
+- either
+- errors
+- esqueleto
+- exceptions
+- fast-logger
+- filepath
+- hashable
+- hashable-time
+- haxl
+- here
+- HsOpenSSL
+- hspec
+- http-client
+- http-client-openssl
+- http-conduit
+- http-types
+- intern >=0.9.1.4
+- IntervalMap
+- lens
+- lens-aeson
+- mime-mail
+- mmorph
+- monad-logger
+- mtl
+- network
+- optparse-applicative
+- pbkdf
+- persistent
+- persistent-postgresql
+- persistent-template
+- postgresql-simple
+- QuickCheck >=2.8.1
+- quickcheck-text >=0.1.1.0
+- ratel
+- retry
+- safe
+- securemem
+- semigroups
+- servant >=0.8.1
+- servant-server >=0.8.1
+- singletons
+- snap
+- snap-blaze
+- snap-core
+- snaplet-fay
+- snap-loader-static
+- snap-server
+- snap-web-routes
+- stm
+- temporary
+- terminal-progress-bar
+- terminal-size
+- text
+- text-format
+- text-icu
+- time
+- transformers
+- tuple >=0.3.0.2
+- unix
+- unordered-containers >=0.2.7.0
+- utf8-string
+- validation
+- vector
+- warp
+- wrap
+- wreq
+- xlsx
+library:
+  source-dirs: .
