@@ -3,7 +3,7 @@ version: '0.1.0.0'
 author: Brad Ediger
 maintainer: brad.ediger@madriska.com
 license: AllRightsReserved
-extra-libraries: xlsxwriter
+extra-libraries: zlib
 dependencies:
 - aeson
 - async
